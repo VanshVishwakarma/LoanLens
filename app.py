@@ -813,7 +813,7 @@ with st.form("loan_form"):
             min_value=None, max_value=None, value=None, step=5000,
             placeholder="e.g. 1,50,000")
     with c6:
-        dti_ratio = st.number_input("Debt-to-Income Ratio (%)",
+        dti_ratio = st.number_input("Debt-to-Income Ratio",
             min_value=None, max_value=None, value=None, step=0.1, format="%.1f",
             placeholder="e.g. 28.5")
         existing_loans = st.number_input("Active Loan Count",
